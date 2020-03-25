@@ -1,0 +1,129 @@
+h1
+{
+	color:green;
+	text-align:center;
+	word-spacing:0.5em;
+}
+h3
+{
+	color:green;
+	text-align:center;
+	word-spacing:0.5;
+}
+img
+{
+	margin:30px;
+	width:100%;
+}
+body
+{
+	font-family:sans-serif;
+	line-height:1.5em;
+	margin:0;
+	color:black;
+}
+button
+{
+	margin:20px;
+	padding:7px;
+	background-color:white;
+	color:black;
+	border:1px lime solid;
+}
+button:hover
+{
+	background-color:lime;
+	color:black;
+}
+.p1
+{
+	float:left;
+	width:60%;
+	margin-right:20px;
+	margin-left:10px;
+	margin-bottom:20px;
+	border:2px black solid;
+	padding:20px;
+	background-color:lime;
+	color:black;
+}
+.list1
+{
+	float:left;
+}
+a
+{
+	color:black;
+}
+a:hover
+{
+	color:red;
+}
+a:active
+{
+	color:green;
+}
+/*a:visited
+{
+	color:red;
+}*/
+ul
+{
+	width:100%;
+	height:60%;
+	/*margin:20px;*/
+	border:2px black solid;
+	padding:20px;
+	background-color:lime;
+	color:black;
+	list-style:none;
+	float:left;
+}
+
+.list1 li
+{
+	list-style-image:url('D:\HTML CSS JAVASCRIPT\images\arrow.jpg');
+		display:inline;
+}
+.form-group
+{
+	margin-top:200px;	
+}
+.form-group1
+{
+	float:left;
+	color:black;
+	padding:5px;
+	border-color:lime;
+}
+.form-group label
+{
+	display:block;
+}
+.form-group input[type="text"], .form-group textarea
+{
+	color:green;
+	border-color:lime;
+	padding:8px;
+}
+.form-group input[type="number"],.form-group input[type="date"]
+{
+	color:green;
+	border-color:lime;
+	padding:8px;
+}
+#main
+{
+	float:left;
+	width:70%;
+	box-sizing:border-box;
+	padding:20px;
+}
+#new-main
+{
+	float:right;
+	width:30%;
+	background-color:lime;
+	box-sizing:border-box;
+	padding:20px;
+}
